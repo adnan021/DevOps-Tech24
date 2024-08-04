@@ -6,7 +6,7 @@ Created on Mon Jul 29 17:03:33 2024
 import random
 
 n = random.randrange(1, 10)
-guess = int(input("Enter any number: "))
+guess = int(input("Please Enter any number: "))
 while n!= guess:
     if guess < n:
         print("Too low")
